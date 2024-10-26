@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B737D;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.t {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+#reset-btn{
+    background-color: rgb(235, 23, 23);
+    color: whitesmoke;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 80px); /* Adjust box size */
+    gap: 5px;
+    margin-top: 1em;
+}
+.box {
+    width: 80px;      /* Reduced box size */
+    height: 80px;     /* Reduced box size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: white;
+    color: #F05D0E;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #16D9EB;
+}
+
+.msg-container {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.msg {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.tile:hover {
+    background-color: #e0e0e0;  
+    color: black;
+}
+
+
+.red-background {
+    background-color: #0E89CB;
+    color: white; /* Optional: for better contrast */
+}
+
+.green-background {
+    background-color: #063751;
+    color: white; /* Optional: for better contrast */
+}
