@@ -20,7 +20,7 @@ let gameActive = true;
 // Function to show winner message
 function showWinner(winner) {
     msg.innerText = `Congratulations, Winner is ${winner}`;
-    msgContainer.classList.remove('hide');
+    msg.classList.remove('hide');
     gameActive = false;
 }
 
